@@ -1,6 +1,6 @@
 ﻿namespace EstudoCSharp
 {
-    partial class Form1
+    partial class frmPrincipal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
+            this.Name = "frmPrincipal";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.ResumeLayout(false);
 
         }
